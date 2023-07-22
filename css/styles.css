@@ -5,10 +5,14 @@
   --header-title-color: #ffffff;
   --pressed-state-color: #404bbf;
   --light-mode-bg-color: #f4f4fd;
+  --subtle-bg-accent-color: #e7e9fc;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--body-text-color);
+}
+.list {
+  list-style: none;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -41,6 +45,7 @@ body {
 }
 .contacts-item {
   color: var(--body-text-color);
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32;
@@ -53,6 +58,9 @@ body {
 .foot {
   background-color: var(--headings-color);
   color: var(--light-mode-bg-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .heading {
   background-color: var(--headings-color);
@@ -68,6 +76,7 @@ body {
 .order-button {
   background-color: var(--primary-brand-color);
   color: var(--header-title-color);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -78,12 +87,12 @@ body {
 .order-button:hover,
 .order-button:focus {
   background-color: var(--pressed-state-color);
-  color: var(--header-title-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .filter-button-item {
   background-color: var(--light-mode-bg-color);
   color: var(--primary-brand-color);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -113,12 +122,15 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4;
+  letter-spacing: 0.4px;
 }
-.brand-description,
-.business-cards,
-.project-list {
+.description-item,
+.job,
+.product-category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.business-cards {
+  background-color: var(--light-mode-bg-color);
 }
